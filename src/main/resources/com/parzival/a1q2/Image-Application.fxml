@@ -6,7 +6,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.parzival.a1q2.ImageController">
    <children>
-      <Button id="openFile" fx:id="openFile" layoutX="52.0" layoutY="29.0" mnemonicParsing="false" onAction="#openFile" text="open image file" />
+      <Button id="openFile" fx:id="openFile" layoutX="52.0" layoutY="29.0" mnemonicParsing="false" onAction="#openFile" style="-fx-border-color: black; -fx-border-radius: 5px; -fx-background-color: GREEN; -fx-border-width: 3px;" text="open image file" />
       <ImageView id="imageView" fx:id="imageView" fitHeight="323.0" fitWidth="571.0" layoutX="14.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>
